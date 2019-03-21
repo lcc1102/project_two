@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/news/news",
+    "pages/index/index",
+    "pages/news/news-detail/news-detail",
+    "pages/movie/movie-more/movie-more"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#252525",
+    "navigationBarTitleText": "新闻与电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "images/tab/news-on.png",
+        "selectedIconPath": "images/tab/news.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "images/tab/movie-on.png",
+        "selectedIconPath": "images/tab/movie.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "测试地址接口调用"
+    }
+  }
+}

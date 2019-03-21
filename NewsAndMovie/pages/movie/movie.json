@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "movies-group":"/components/movies-group/movies-group"
+  }
+}

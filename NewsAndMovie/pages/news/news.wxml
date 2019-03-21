@@ -1,0 +1,11 @@
+<view>
+  <swiper indicator-dots autoplay interval="5000" circular >
+    <block wx:for="{{swiperData}}">
+      <swiper-item>
+        <image src="{{item.path}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<hr />
+<news-item news-list="{{newsList}}"></news-item>

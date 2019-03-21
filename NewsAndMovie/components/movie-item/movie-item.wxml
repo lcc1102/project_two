@@ -1,0 +1,4 @@
+<view class="movie-content">
+  <image src="{{data.images.small}}" class="movie-img"></image>
+  <text class="movie-title">{{data.title}}</text>
+</view>

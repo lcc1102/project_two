@@ -1,0 +1,38 @@
+.container{
+  display:flex;
+  flex-direction: column
+}
+.movie-head{
+  height:36px;
+  display:flex;
+  justify-content:  space-between
+}
+.slogan{
+  line-height: 36px;
+  font-size:32rpx;
+  color:#333;
+  text-shadow: 2px 2px 2px #666;
+  padding-left: 4%;
+}
+.more{
+  line-height: 36px;
+  padding-right:5%;
+}
+.more-img{
+  width:9rpx;
+  height:16rpx;
+  vertical-align: middle;
+  padding-left: 10rpx;
+}
+.movies-container{
+  display:flex;
+  justify-content:space-around;
+}
+.movie-content{
+  display:flex;
+  flex-direction: column
+}
+.movies-container .movie-img{
+  width:200rpx;
+  height:270rpx;
+}

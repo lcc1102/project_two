@@ -1,0 +1,8 @@
+.movie-content{
+  display:flex;
+  flex-direction: column
+}
+.movie-img{
+  width:200rpx;
+  height:270rpx;
+}

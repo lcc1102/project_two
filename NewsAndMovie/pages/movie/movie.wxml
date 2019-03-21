@@ -1,0 +1,5 @@
+<view class="container">
+  <movies-group data="{{in_theaters}}" title="in_theaters"></movies-group>
+  <movies-group data="{{coming_soon}}" title="coming_soon"></movies-group>
+  <movies-group data="{{top250}}" title="top250"></movies-group>
+</view>
